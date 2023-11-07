@@ -6,7 +6,6 @@ int main(){
 	scanf("%d", &a);
 	int b= year - a;
 	printf("Nam nay ban %d tuoi.\n", b);
-	if(b%2==0) printf("Tuoi cua ban la tuoi chan.");
-	else printf("Tuoi cua ban la tuoi le.");
+	(b%2==0) ? printf("Tuoi cua ban la tuoi chan."):printf("Tuoi cua ban la tuoi le.");
 	return 0;
 }
