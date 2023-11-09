@@ -1,15 +1,16 @@
 #include<stdio.h>
 int main(){
-	int thousandDigit, hundredDigit, dozenDigit, unitDigit;
-	printf("thousandDigit=");
-	scanf("%d",&thousandDigit);
-	printf("hundredDigit=");
-	scanf("%d",&hundredDigit);
-	printf("dozenDigit=");
-	scanf("%d",&dozenDigit);
-	printf("unitDigit=");
-	scanf("%d",&unitDigit);
-	int sum=thousandDigit+hundredDigit+dozenDigit+unitDigit;
+	printf("nhap so co 4 chu so: ");
+	char a=getchar();
+	char b=getchar();
+	char c=getchar();
+	char d=getchar();
+	int sum=a+b+c+d-192;
 	printf("sum=%d\n",sum);
-	printf("Chuoi dao nguoc=%d%d%d%d",unitDigit,dozenDigit,hundredDigit,thousandDigit);
+	printf("so nghich dao: ");
+	putchar(d);
+	putchar(c);
+	putchar(b);
+	putchar(a);
 }
+	
